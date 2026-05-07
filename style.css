@@ -11,7 +11,7 @@ ul {
 
 @font-face {
   font-family: "BrutalFont";
-  src: url("../ressources/Brutal Font Pro Regular.ttf") format("truetype");
+  src: url("./ressources/brutal-font-pro-regular.ttf") format("truetype");
 }
 li {
   transition: transform 0.2s ease-out;
