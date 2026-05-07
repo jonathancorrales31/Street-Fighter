@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Fighter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./ressources/favicon-96x96.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="histoire.html">HISTOIRE</a></li>
+                <li><a href="personnages.html">PERSONNAGES</a></li>
+                <li><a href="jeux.html">JEUX</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+        <div><img src="./ressources/Ryu_SFXT.webp" alt=""></div>
+        <img src="./ressources/Street-Fighter-Logo.jpg" alt="">
+        <div class="ken"><img src="./ressources/Ken_Masters_(SF3_-_Third_Strike).png" alt=""></div>
+        </div>
+    </header>
+    <h1>Ryu</h1>
+    <div class="character-poster">
+    <img src="./ressources/ryu-poster.jpg" alt="">
+    </div>
+    <h2>Biographie</h2>
+    <p>Ryu est un artiste martial japonais qui consacre sa vie au combat et à la recherche de la perfection. Orphelin très jeune, il est élevé par le maître Gouken, qui lui enseigne le style Ansatsuken aux côtés de Ken Masters.</p>
+    <p>Plutôt solitaire et discipliné, Ryu voyage à travers le monde pour affronter de nombreux combattants et progresser. Contrairement à d’autres, il ne cherche ni richesse ni gloire : son objectif est de maîtriser son énergie intérieure, appelée le Satsui no Hado, tout en évitant de se laisser corrompre par elle.</p>
+    <p>Son style de combat repose sur la maîtrise des techniques fondamentales comme le Hadoken, le Shoryuken et le Tatsumaki Senpukyaku, devenues emblématiques de la série.</p>
+
+    <h2> Ses coups spéciaux</h2>
+    <iframe class="presentation-specials-hits"  width="560" height="315" src="https://www.youtube.com/embed/cKbVAOPuG-0?si=0RxnOfbUm1Ek8X41" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Gallerie</h2>
+   <div class="swiper">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <img src="./ressources/ryu-gallery1.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/ryu-gallery2.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/ryu-gallery3.jpg" alt="">
+    </div>
+
+     <div class="swiper-slide">
+      <img src="./ressources/ryu-gallery4.jpg" alt="">
+    </div>
+
+     <div class="swiper-slide">
+      <img src="./ressources/ryu-gallery5.jpg" alt="">
+    </div>
+
+  </div>
+
+  <!-- boutons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+</body>

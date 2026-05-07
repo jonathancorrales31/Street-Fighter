@@ -1,0 +1,148 @@
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 5rem;
+  color: crimson;
+  font-family: "BrutalFont";
+  font-size: 3rem;
+  text-shadow: 2px 2px black;
+}
+
+@font-face {
+  font-family: "BrutalFont";
+  src: url("../ressources/Brutal Font Pro Regular.ttf") format("truetype");
+}
+li {
+  transition: transform 0.2s ease-out;
+}
+li a {
+  text-decoration: none;
+  color: crimson;
+}
+
+li:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+img {
+  height: 30rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.hero {
+  display: flex;
+}
+
+.ken {
+  transform: scalex(-1);
+}
+
+header {
+  padding: 1rem;
+  border-bottom: 3px solid crimson;
+}
+
+.presentation {
+  width: 100%;
+  height: 100vh;
+  border-bottom: 3px solid crimson;
+}
+
+h1 {
+  font-family: BrutalFont;
+  color: crimson;
+  text-align: center;
+  font-weight: bold;
+  font-size: 5rem;
+  margin: 10rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: BrutalFont;
+  color: crimson;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 10rem;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 2rem 15rem;
+  text-align: center;
+  color: crimson;
+  font-family: BrutalFont;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.characters {
+  display: grid;
+  isolation: isolate;
+  grid-template-columns: repeat(5, 1fr);
+}
+.characters div {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  outline: 3px solid crimson;
+  z-index: 0;
+  background: #ffffff; /* ou #111 */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.characters img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.characters div:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  box-shadow: 0 0 20px crimson;
+}
+.characters .name {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: crimson;
+  font-family: BrutalFont;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.characters div:hover .name {
+  opacity: 1;
+}
+
+.character-poster {
+  width: 100%;
+}
+.character-poster img {
+  width: 30%;
+  height: auto;
+  box-shadow: 0px 0px 20px crimson;
+}
+
+.presentation-specials-hits {
+  width: 100%;
+  height: 100vh;
+  border: 3px solid crimson;
+}
+
+.swiper {
+  --swiper-navigation-color: crimson;
+}
+
+/*# sourceMappingURL=style.css.map */

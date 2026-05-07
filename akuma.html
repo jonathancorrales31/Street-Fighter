@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Fighter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./ressources/favicon-96x96.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="histoire.html">HISTOIRE</a></li>
+                <li><a href="personnages.html">PERSONNAGES</a></li>
+                <li><a href="jeux.html">JEUX</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+        <div><img src="./ressources/Ryu_SFXT.webp" alt=""></div>
+        <img src="./ressources/Street-Fighter-Logo.jpg" alt="">
+        <div class="ken"><img src="./ressources/Ken_Masters_(SF3_-_Third_Strike).png" alt=""></div>
+        </div>
+    </header>
+    <h1>Akuma</h1>
+    <div class="character-poster">
+        <img src="./ressources/akuma-poster.jpg" alt="">
+    </div>
+    <h2>Biographie</h2>
+    <p>Akuma, aussi connu sous le nom de Gouki, est un maître des arts martiaux qui a choisi de s’abandonner complètement au côté obscur du combat. Ancien disciple du même style que Ryu et Ken (l’Ansatsuken), il a succombé au pouvoir du Satsui no Hado, une énergie destructrice qui amplifie sa force au détriment de son humanité.</p>
+    <p>Contrairement à Ryu, qui lutte pour contrôler cette énergie, Akuma l’embrasse totalement. Il parcourt le monde à la recherche d’adversaires dignes de sa puissance, cherchant des combats extrêmes où seul le plus fort survit.</p>
+   <p>Son style est brutal et sans retenue, avec des techniques emblématiques comme le Gohadoken, le Shoryuken dévastateur (Shun Goku Satsu) et des attaques démoniaques d’une puissance écrasante.</p>
+
+   <h2>Ses coups spéciaux</h2>
+   <iframe class="presentation-specials-hits" width="560" height="315" src="https://www.youtube.com/embed/08MmdWuOz7E?si=R6YH0Xumw5NU6OPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <h2>Gallerie</h2>
+   
+
+<div class="swiper"> <!-- 👈 MANQUAIT -->
+
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <img src="./ressources/akuma-gallery1.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/akuma-gallery2.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/akuma-gallery3.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/akuma-gallery4.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/akuma-gallery5.jpg" alt="">
+    </div>
+
+  </div>
+
+  <!-- boutons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+
+  
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+</body>

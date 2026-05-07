@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Fighter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./ressources/favicon-96x96.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="histoire.html">HISTOIRE</a></li>
+                <li><a href="personnages.html">PERSONNAGES</a></li>
+                <li><a href="jeux.html">JEUX</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+        <div><img src="./ressources/Ryu_SFXT.webp" alt=""></div>
+        <img src="./ressources/Street-Fighter-Logo.jpg" alt="">
+        <div class="ken"><img src="./ressources/Ken_Masters_(SF3_-_Third_Strike).png" alt=""></div>
+        </div>
+    </header>
+    <h1>Bison</h1>
+    <div class="character-poster">
+     <img src="./ressources/bison-poster.jpg" alt="">
+    </div>
+    <h2>Biographie</h2>
+    <p>M. Bison est un dictateur impitoyable obsédé par le pouvoir et la domination mondiale. À la tête de Shadaloo, il utilise la technologie, le crime organisé et ses propres capacités psychiques pour contrôler des combattants et étendre son influence.</p>
+    <p>Il maîtrise le Psycho Power, une énergie psychique sombre qui lui confère une force surhumaine, lui permettant de réaliser des attaques destructrices et de manipuler ses adversaires mentalement.</p>
+    <p>Bison cherche constamment à recruter ou éliminer les combattants les plus puissants, notamment Ryu et Akuma, afin d’utiliser leur potentiel pour ses propres ambitions.</p>
+
+    <h2>Ses coups spéciaux</h2>
+    <iframe class="presentation-specials-hits" width="560" height="315" src="https://www.youtube.com/embed/rzAnNop0eko?si=cNa6EkLpWowlm3FW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Gallerie</h2>
+     <div class="swiper"> <!-- 👈 MANQUAIT -->
+
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <img src="./ressources/bison-gallery1.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/bison-gallery2.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/bison-gallery3.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/bison-gallery4.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/bison-gallery5.jpg" alt="">
+    </div>
+
+  </div>
+
+  <!-- boutons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+
+ 
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+</body>
