@@ -6,6 +6,9 @@
     <title>Street Fighter</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./ressources/favicon-96x96.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
     <header>
@@ -15,7 +18,7 @@
                 <li><a href="histoire.html">HISTOIRE</a></li>
                 <li><a href="personnages.html">PERSONNAGES</a></li>
                 <li><a href="jeux.html">JEUX</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                
             </ul>
         </nav>
         <div class="hero">
@@ -35,4 +38,45 @@
     <p>Membre de Shadaloo, il sert les intérêts de M. Bison, mais reste avant tout motivé par ses propres obsessions personnelles.</p>
     <h2>Ses coups spéciaux</h2>
     <iframe class="presentation-specials-hits" width="560" height="315" src="https://www.youtube.com/embed/rLz1sFgRe14?si=3ekphu6Md8gYGUU_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2>Gallerie</h2>
+   <div class="swiper">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <img src="./ressources/vega-gallery1.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/vega-gallery2.jpg" alt="">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./ressources/vega-gallery3.jpg" alt="">
+    </div>
+
+     <div class="swiper-slide">
+      <img src="./ressources/vega-gallery4.jpg" alt="">
+    </div>
+
+     <div class="swiper-slide">
+      <img src="./ressources/vega-gallery5.jpg" alt="">
+    </div>
+
+  </div>
+
+  <!-- boutons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
 </body>

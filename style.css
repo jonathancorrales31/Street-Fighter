@@ -145,4 +145,51 @@ p {
   --swiper-navigation-color: crimson;
 }
 
+.timeline {
+  position: relative;
+  margin: 5rem auto;
+  width: 60%;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: crimson;
+}
+
+.event {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 60px;
+  color: crimson;
+  font-family: BrutalFont;
+}
+
+.event::before {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  width: 16px;
+  height: 16px;
+  background: crimson;
+  border-radius: 50%;
+}
+
+.event:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.event img {
+  width: 400px;
+  height: auto;
+  border: 2px solid crimson;
+  margin: 1rem auto;
+}
+
 /*# sourceMappingURL=style.css.map */
