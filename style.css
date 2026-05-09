@@ -205,16 +205,50 @@ p {
     font-size: 3rem;
   }
 }
+@media (max-width: 1200px) {
+  p {
+    font-size: 1.5rem;
+    margin: 2rem 5rem;
+  }
+  .characters {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  .characters {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media (max-width: 990px) {
   .hero img {
     width: 15rem;
     height: 15rem;
   }
 }
+@media (max-width: 845px) {
+  p {
+    margin: 2rem 2rem;
+  }
+  .characters {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .characters div {
+    height: 250px;
+  }
+}
 @media (max-width: 746px) {
   .hero img {
     width: 10rem;
     height: 10rem;
+  }
+}
+@media (max-width: 739px) {
+  .story-image {
+    width: 100%;
+    height: auto;
+  }
+  .timeline {
+    margin-left: 3rem;
   }
 }
 @media (max-width: 830px) {
@@ -224,6 +258,25 @@ p {
   }
   h1 {
     font-size: 2rem;
+    margin: 5rem;
+  }
+  h2 {
+    font-size: 2rem;
+    margin: 2rem;
+  }
+  iframe {
+    height: 20px;
+    width: 100%;
+  }
+}
+@media (max-width: 572px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 588px) {
+  .timeline {
+    margin-left: 0rem;
   }
 }
 @media (max-width: 637px) {
@@ -235,6 +288,11 @@ p {
   .hero img {
     width: 7rem;
     height: 7rem;
+  }
+}
+@media (max-width: 496px) {
+  .event img {
+    width: 300px;
   }
 }
 
